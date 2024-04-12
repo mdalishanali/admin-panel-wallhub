@@ -4,7 +4,7 @@ import { api } from "@/utils/api";
 import React, { useState } from "react";
 import toast from "react-hot-toast";
 
-export default function page() {
+export default function AddCategory() {
   const [category, setCategory] = useState({
     name: "",
     image: "",
