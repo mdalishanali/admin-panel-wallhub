@@ -61,7 +61,13 @@ export default function Home() {
             {wallpapers.map((wallpaper) => {
               return (
                 <div key={wallpaper._id} className="">
-                  <img src={wallpaper.image} className="w-full rounded" />
+                  
+                  <Image
+                    height={200}
+                    width={100}
+                    src={wallpaper.image}
+                    className="w-full rounded"
+                  />
                 </div>
               );
             })}
