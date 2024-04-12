@@ -62,11 +62,12 @@ export default function Home() {
               return (
                 <div key={wallpaper._id}>
                   <Image
-                    height={20}
-                    width={50}
                     alt="iphone wallpapers"
                     src={wallpaper.image}
-                    className="w-full rounded"
+                    width="0"
+                    height="0"
+                    sizes="100vw"
+                    className="w-full h-auto"
                   />
                 </div>
               );
