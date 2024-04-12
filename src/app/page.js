@@ -60,11 +60,11 @@ export default function Home() {
           <div className="grid grid-cols-3 gap-4">
             {wallpapers.map((wallpaper) => {
               return (
-                <div key={wallpaper._id} className="">
-                  
+                <div key={wallpaper._id}>
                   <Image
-                    height={200}
-                    width={100}
+                    height={20}
+                    width={50}
+                    alt="iphone wallpapers"
                     src={wallpaper.image}
                     className="w-full rounded"
                   />
